@@ -88,8 +88,8 @@ class SQLServer(QMainWindow):
         try:
             self.connection = pymysql.connect(
                 host="sql12.freesqldatabase.com",   # Host from Railway
-                user="sql12749421",                       # Username from Railway
-                password="jYHVE5agyL",  # Password from Railway
+                user="",                       # Username from Railway
+                password="",  # Password from Railway
                 database="sql12749421",                # Database name from Railway
                 port=3306                         # Port from Railway
             )
